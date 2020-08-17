@@ -1,7 +1,7 @@
 const porta = 3003//Starta a porta que será usada nessa aplicação
 
-const express = require('express')//Chama o framework Express
-const app = express()//Invoca a função express na variável app, onde irá acontecer tudo
+const express = require('express')
+const app = express()
 const bodyParser = require('body-parser')
 const bancoDeDados = require('./bancoDeDados')
 
