@@ -1,5 +1,5 @@
-const sequence = {//Criação de um objeto para guardar valores
-    _id: 1,//Aqui instância o ID como 1, e conforme entrarem mais objetos, aumenta o número do ID
+const sequence = {
+    _id: 1,
     get id() { return this._id++ }
 }
 
